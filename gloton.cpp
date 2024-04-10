@@ -7,9 +7,10 @@ bool comparePair(const std::pair<int, int>& p1, const std::pair<int, int>& p2) {
 int main(){ 
 	int n,m; 
 	std::cin >> n >> m; 
-	std::vector<int> v [ 100000+1 ]; 
-	std::vector<int >sizes ( 100000+1 ); 
-	std::vector<int >querys ( 100000 ); 
+    std::cout<< n<< " "<<m;
+	std::vector<int> v [ 10000+1 ]; 
+	std::vector<int >sizes ( 10000+1 ); 
+	std::vector<int >querys ( 10000 ); 
 	for (int i = 0; i < n; ++i){ 
 		int time ,typ ,size ,op; 
 		std::cin >> time >> typ >> size >> op; 

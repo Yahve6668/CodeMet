@@ -11,11 +11,11 @@ std::cin >> n >> m;
     std::vector<long long >sizes ( 10000+1 ); 
     std::vector<long long >querys ( 10000 );
 for (long long i = 0; i < n; ++i){ 
-long long time ,typ ,size ,op; 
-std::cin >> time >> typ >> size >> op; 
-v[ typ ].push_back( i+1 ); 
-sizes[ typ ] = size; 
-querys[ i ] = typ; 
+  long long time ,typ ,size ,op; 
+      std::cin >> time >> typ >> size >> op; 
+      v[ typ ].push_back( i+1 ); 
+      sizes[ typ ] = size; 
+      querys[ i ] = typ; 
 } 
  
 std::vector<std::pair< long long , long long > >cache; 
